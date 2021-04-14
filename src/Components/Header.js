@@ -6,7 +6,7 @@ import NavbarToggle from "react-bootstrap/NavbarToggle";
 class Header extends Component {
     render() {
         return (
-            <Navbar collapseOnSelect={\}>
+            <Navbar collapseOnSelect expand='md' bg='dark' variant='dark'>
                 <Container>
                     <Nanvbar.brand href='/'>
                         <img src={logo}
@@ -25,6 +25,9 @@ class Header extends Component {
                         <Nav.Link href='/blog'>Blog </Nav.Link>
 
                     </Nav>
+                        <Form inline>
+
+                        </Form>
                 </Navbar.Collapse>
             </Container>
     </Navbar>
