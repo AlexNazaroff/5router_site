@@ -17,6 +17,7 @@ class Header extends Component {
                         />
                     </Nanvbar.brand>
                     <Navbar.Toggle aria-controls='responsive-navbar-nav'/>
+                    <Navbar.Collapse
                 </Container>
 
             </Navbar>
