@@ -25,9 +25,10 @@ class Header extends Component {
                         <Nav.Link href='/blog'>Blog </Nav.Link>
 
                     </Nav>
-                        <Form inline>
+                        <From inline>
+                            <FormControl></FormControl>
 
-                        </Form>
+                        </From>
                 </Navbar.Collapse>
             </Container>
     </Navbar>
