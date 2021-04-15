@@ -13,8 +13,13 @@ class Caruselbox extends Component {
                    <Carousel.Item>
                        <img
                            className='d-block w-100'
-                           src={}
+                           src={2}
+                           alt='2'
                        />
+                       <Carusel.Caption>
+                           <h3>Les 2</h3>
+                           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci aperiam autem eligendi laudantium nostrum quam, temporibus voluptatem? Cum, magni, officiis. Accusamus aliquam dolorem eveniet ipsam veniam. Aspernatur commodi natus necessitatibus!</p>
+                       </Carusel.Caption>
                    </Carousel.Item>
                </Carousel>
             </div>
