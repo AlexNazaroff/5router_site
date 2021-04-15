@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import {Navbar, Nav, Button, Form, FormControl, Container, NavbarBrand} from "react-bootstrap";
 import logo from './logo192.png'
+import {BrowserRouter as Router, Switch, Router, Link} from 'react-router-dom'
 
 class Header extends Component {
     render() {
@@ -35,6 +36,15 @@ class Header extends Component {
                         </Navbar.Collapse>
                     </Container>
                 </Navbar>
+                <Router>
+                    <Switch>
+                        <Route exact path='/' component={Home} />
+                        <Route exact path='/about' component={About} />
+                        <Route exact path='/contacts' component={Contacts} />
+                        <Route exact path='/blog' component={Blog} />
+
+                    </Switch>
+                </Router>
             </>
         );
     }
