@@ -2,6 +2,10 @@ import React, {Component} from 'react';
 import {Navbar, Nav, Button, Form, FormControl, Container, NavbarBrand} from "react-bootstrap";
 import logo from './logo192.png'
 import {BrowserRouter as Router, Switch, Router, Link} from 'react-router-dom'
+import Home from "../Pages/Home";
+import Blog from "../Pages/Blog";
+import Contacts from "../Pages/Contacts";
+import About from "../Pages/About";
 
 class Header extends Component {
     render() {
