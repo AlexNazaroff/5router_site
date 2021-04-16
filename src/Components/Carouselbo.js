@@ -3,7 +3,9 @@ import 122 from '../assets/122.jpg2.jpeg';
 
 import React, {Component} from 'react';
 import Carousel from "bootstrap/js/src/carousel";
+/*
 import {CarouselItem} from "react-bootstrap";
+*/
 
 class Caruselbo extends Component {
     render() {
